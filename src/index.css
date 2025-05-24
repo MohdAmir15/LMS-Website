@@ -2,6 +2,29 @@
 
 @import "tailwindcss";
 
+@theme{
+    --font-size-course-details-heading-small: 30px;
+    --line-height-course-details-heading-small: 40px;
+    --font-size-course-details-heading-large: 40px;
+    --line-height-course-details-heading-large: 48px;
+    --font-size-home-heading-small: 46px;
+    --line-height-home-heading-small: 52px;
+    --font-size-home-heading-large: 66px;
+    --line-height-home-heading-large: 74px;
+    --font-size-default: 19px;
+    --line-height-default: 25px;  
+}
+.text-home-heading-small {
+    font-size: var(--font-size-home-heading-small);
+    line-height: var(--line-height-home-heading-small);
+  }
+  
+  .text-home-heading-large {
+    font-size: var(--font-size-home-heading-large);
+    line-height: var(--line-height-home-heading-large);
+  }
+  
+
 *{
     font-family: Outfit;
 }
